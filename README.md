@@ -1,6 +1,6 @@
 # VideoHelp Dark Theme
 
-[Browser Preview](images/browser_preview.png)
+![Browser Preview](./images/browser_preview.png)
 
 ## Installation
 Go to the releases section and download the following file depending on your browser:
