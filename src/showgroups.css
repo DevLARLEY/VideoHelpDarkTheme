@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.groupbit {
+	clear:both;
+	position:relative;
+	padding-left:80px;
+	min-height: 60px;
+}
+.groupbit .blocksubhead {
+	_margin: 0;
+}
+.groupbit .location {
+	float:right;
+	padding:10px;
+}
+
+.groupbit .username {
+	font-weight:normal;
+	padding-right:1.5em;
+}
+
+.groupbit .username.online {
+	background:url(https://forum.videohelp.com/images/statusicon/user-online.png) top right no-repeat;
+}
+
+.groupbit .username.offline {
+	background:url(https://forum.videohelp.com/images/statusicon/user-offline.png) top right no-repeat;
+}
+
+.groupbit .username.invisible {
+	background:url(https://forum.videohelp.com/images/statusicon/user-invisible.png) top right no-repeat;
+}
+
+.groupbit .avatarlink {
+	position:absolute;
+	top:0;
+	left:10px;
+	_left:-70px;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.groupbit .posttext {
+	font-family:Verdana, Geneva, sans-serif;
+	margin:0.5em;
+}
+
+.groupbit .blockfoot {
+	padding:5px 0;
+	margin-bottom:10px;
+	background-color:transparent;
+	background-image:none;
+	border-color:transparent;
+}
+
+.groupbit:hover .blockfoot {
+	background-color: #2b2b2b;
+	background-image: ;
+	border-top-color: #2b2b2b;
+	border-bottom-color: #2b2b2b;
+}
+
+.groupbit .postcontrols {
+	float:right;
+}
+
+.groupbit .postcontrols a {
+	float:left;
+	display:block;
+	margin-right:10px;
+	padding:2px 10px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	color:rgb(187,187,187);
+	background:transparent;
+	border:solid 1px transparent;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.groupbit:hover .postcontrols a {
+	color: #ccc;
+	background: #373737;
+	border-color: #484848;
+}
+
+.groupbit:hover .postcontrols a:hover {
+	color: #ff6600;
+}
+
+#groups_1, #groups_2 {
+	float: left;
+	width: 100%;
+	clear:both;
+}
+
+#groups_1, #groups_2 li.block.usergroup {
+	margin-bottom:3em;
+}
+
+#showgroups_navpopup {
+	display:block;
+	clear:both;
+}

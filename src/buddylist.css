@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+label.show_avatars_ctrl {
+	float:left;
+}
+label.check_all_ctrl {
+	float:right;
+}
+
+.userlist_error {
+	display:none;
+}
+.userlist_error_image {
+	float:left;
+	margin-right:6px;
+	margin-bottom:6px;
+}
+
+ul.userlist {
+	list-style:none; padding:0px; margin:0px; clear: both;
+}
+ul.userlist li {
+	float:left;
+	margin-right:6px;
+	margin-bottom:6px;
+	width:175px;
+}
+
+/* avatars shown */
+ul.userlist_showavatars li {
+	overflow:hidden;
+	position:relative;
+	width:215px;
+	height:80px;
+	border:0;
+	padding:4px;
+	background: #202020;
+	border: solid 1px #484848;
+	/*-moz-border-radius:10px;
+	-webkit-border-radius:10px;	*/
+}
+
+ul.userlist_showavatars img {
+	float: left;
+	clear: right;
+	display: block;
+}
+
+ul.userlist_showavatars div.buddylist_details {
+	float: left;
+	display: block;
+}
+
+ul.userlist_showavatars div.buddylist_details a {
+	padding-left:6px;
+	vertical-align:top;
+	font-weight:bold;
+}
+
+
+
+ul.userlist_showavatars div.buddylist_details input {
+	position:absolute;
+	left: 4px; top:4px;
+}
+
+ul.userlist_showavatars div.buddylist_details div.friend {
+	position: absolute;
+	right: 4px;
+	bottom: 4px;
+}
+
+ul.userlist_showavatars div.buddylist_details div.friend label {
+	position: relative;
+	margin-left: 0;
+}
+
+ul.userlist_showavatars div.buddylist_details div.friend label input {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+/* avatars hidden */
+ul.userlist_hideavatars li {
+	position:relative;
+	width:215px;
+	padding:4px;
+	background:rgb(249,249,255) url(https://forum.videohelp.com/images/gradients/content3image-alpha.png) repeat-x;
+	border:solid 2px rgb(249,249,255);
+	/*-moz-border-radius:10px;
+	-webkit-border-radius:10px;	*/
+}
+
+ul.userlist_hideavatars label.avatar_label img {
+	display:none;
+}
+
+ul.userlist_hideavatars div.buddylist_details a {
+	font-weight:bold;
+}
+
+/* filterbox */
+input#userlist_filter {
+	float:right;
+	width:150px;
+	height:1.3em;
+	padding-left:16px;
+	background-image:url(https://forum.videohelp.com/images/misc/magnifier.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	display:none;
+}
+
+input#userlist_filter.filterbox_inactive {
+	color:silver;
+	font-style:italic;
+}
+
+.filtercontainer {
+	margin-bottom:10px;
+}

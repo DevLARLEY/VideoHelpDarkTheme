@@ -1,0 +1,888 @@
+@CHARSET "UTF-8";
+
+#grouppagetitle {
+	display:block;
+	width: 100%;
+	border: 1px solid #CECECE;
+	background: #E9E9E9;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#grouppagetitle h1 {
+	font-weight: bold;
+	padding: 5px 0;
+	font-size: 13px;
+	color:#4E4E4E;
+	padding-left: 10px;
+	border-top: 1px solid #ffffff;
+}
+#grouppagetitle h1 a {
+	color:#4E4E4E;
+}
+
+#grouppagetitle .grouptitle {
+	color: #3e3e3e;
+	font-weight:bold;
+}
+
+#content .blockhead {
+	-moz-box-shadow:-2px 2px 2px #c8c8c8;
+	/* -webkit-box-shadow: -2px 2px 2px #c8c8c8; */
+	font-weight:bold;
+}
+
+.blockheadinfo, .blocksubheadinfo {
+	float:right;
+	font-weight:normal;
+	padding-right:5px;
+}
+a.blockheadinfo {
+	color:#FFF;
+}
+
+#content .blockrow {
+	padding:0;
+}
+
+#content .blockrow > li, #content .blockrow > ol, #content .blockrow > div {
+	display:block;
+	background:#F2F6F8 url(https://forum.videohelp.com/images/gradients/grey-up.png) repeat-x scroll left bottom;
+	border-top:1px solid #FFFFFF;
+	border-bottom:1px solid #C4C4C4;
+	border-left:1px solid #C4C4C4;
+	border-right:1px solid #C4C4C4;
+	-moz-box-shadow:-2px 2px 2px #c8c8c8;
+	-webkit-box-shadow: -2px 2px 2px #c8c8c8;
+}
+
+#uploaddisplay {
+	border-bottom: 1px solid #c4c4c4;
+}
+
+#uploaddisplay .blocksubhead {
+	border: 1px solid #c4c4c4;
+	border-top: 0;
+	border-bottom: 0;
+	-moz-box-shadow:-2px 0 2px #c8c8c8;
+	-webkit-box-shadow: -2px 0 2px #c8c8c8;
+}
+
+#uploaddisplay ul {
+	float: left;
+	clear:both;
+	display:block;
+	width: 99.8%;
+	border: 1px solid #c4c4c4;
+	border-top: 0;
+	border-bottom: 0;
+	-moz-box-shadow:-2px 0 2px #c8c8c8;
+	-webkit-box-shadow: -2px 0 2px #c8c8c8;
+}
+
+#uploaddisplay .blockfoot.actionbuttons {
+	border: 1px solid #c4c4c4;
+	border-top: 0;
+	margin-bottom: 2em;
+	-moz-box-shadow:-2px 2px 2px #c8c8c8;
+	-webkit-box-shadow: -2px 2px 2px #c8c8c8;
+}
+
+#content .blockrow.editpic {
+	display:block;
+	float:left;
+	clear:both;
+	width:100%;
+	background: none;
+}
+
+#content .blockrow.editpic div {
+	background: none;
+	border:0;
+	-moz-box-shadow:0 0 transparent;
+	-webkit-box-shadow:0 0 transparent;
+}
+
+#content .blockrow.editpic .thumbnailedit {
+        float: left;
+        width: 160px;
+        padding: 5px;
+}
+#content .blockrow.editpic .maineditor {
+        float: left;
+        width: 350px;
+        padding: 5px;
+}
+#content .blockrow.editpic .movedelete {
+        float: left;
+        width: 160px;
+        padding: 5px;
+        margin-left: 10px;
+}
+#content .blockrow.editpic .movedelete layer {
+        clear:both;
+        margin-bottom: 5px;
+}
+
+#content .blockrow.editpic .maineditor label {
+	display: none;
+}
+
+#content .blockrow.editpic .maineditor textarea {
+        background: #f2f6f8;
+        border: 1px solid #cedfeb;
+        width: 340px;
+        min-height: 150px;
+}
+
+#thumbnails {
+	float: left;
+	clear: both;
+	width: 99.8%;
+	margin-bottom: 2em;
+}
+#thumbnails li {
+	background-color:#FFF;
+}
+
+#above_pictures, #above_discussions {
+	padding-bottom:6px;
+}
+#above_discussions {
+	padding-top:10px;
+}
+#above_pictures .newcontent_textcontrol, #above_discussions .newcontent_textcontrol {
+	float:right;
+}
+
+.threadbit .discussionrow {
+	margin:0 -2px;
+}
+.threadbit .discussionrow .inner {
+	float:left;
+}
+.threadbit .discussionrow .stats {
+	float:right;
+	padding-top:15px;
+	padding-right:10px;
+}
+.threadbit .threadinfo, .threadbit .deleted .threadinfo {
+	width:75%;
+}
+.threadbit .threadlastpost {
+	width:22%;
+	padding:6px 0 12px 0;
+}
+.threadinfo .statusicon {
+	padding:5px;
+	float:left;
+}
+
+#membersblock ul.blockrow li {
+	width:50px;
+	float:left;
+	margin:5px;
+}
+
+.memberlist a.avatar {
+	background-color:#FFFFFF;
+	border:1px solid #D9D9D9;
+	display:block;
+	float:left;
+	margin-right:3px;
+	overflow:hidden;
+	width:50px;
+	height:50px;
+	text-align:center;
+}
+.memberlist a.avatar img {
+	max-width:50px;
+}
+.memberlist div.memberinfo {
+	text-align:center;
+	height:40px;
+	overflow:hidden;
+}
+
+#sgiconbox {
+	margin-bottom:0;
+}
+
+#groupstatsbox {
+	padding:6px;
+}
+
+#groupstats {
+	padding-bottom:5px;
+}
+
+#groupstats dl.stats dt {
+	color: #555555;
+	display:block;
+	float:left;
+	clear:right;
+	width:50%;
+	text-align: left;
+}
+
+#groupstats dl.stats dd {
+	float:right;
+	text-align: right;
+	font-weight:bold;
+	display:block;
+	width: 50%;
+}
+
+
+/* General */
+img.sgicon {
+	width: 80px;
+	height: auto;
+	padding: 3px;
+	border:1px solid rgb(204, 204, 204);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+.groupcontrols {
+	text-align:right;
+	clear:both;
+	padding-top:2em;
+}
+
+.groupcontrols .textcontrol {
+	margin-left:10pxpx;
+	margin-top:0;
+}
+
+/* Social Group Overview */
+.groupoverviewblock {
+	float:left;
+	width:100%;
+}
+
+/* General Group Lists */
+#group-list-search {
+	position:absolute;
+	right: 10px;
+	margin-top: 10px;
+}
+
+#group-above-list {
+	position: relative;
+	margin-bottom: 5px;
+}
+
+#group-after-list {
+	margin-top:10pxpx;
+	position: relative;
+}
+
+#group-after-list .groupcontrols {
+	clear:none;
+}
+
+#group-list {
+}
+
+#group-list-table {
+	width:100%;
+}
+
+#group-list-table th {
+	text-align:center;
+	white-space:nowrap;
+}
+
+#group-list-table th:first-child {
+	text-align:left;
+}
+
+#group-list-table tr td {
+	border-bottom:1px solid rgb(204, 204, 204);
+}
+
+#group-list-table tr:last-child td {
+	border-bottom:none;
+}
+
+#group-list-table td {
+	padding:10pxpx;
+	vertical-align:top;
+}
+
+#group-list-table td.alt1 {
+	background:rgb(238, 238, 238)  bottom repeat-x;
+}
+
+#group-list-table td.alt2 {
+	background-color:rgb(249,249,255);
+}
+
+#group-list img.sgicon {
+	float:left;
+	margin-right: 10pxpx;
+}
+
+#group-list-table td.groupname {
+	width: 100%;
+}
+
+#group-list span.groupname {
+	font-size:14pt;
+	display:block;
+}
+
+#group-list-table td.members,
+#group-list-table td.discussions,
+#group-list-table td.messages,
+#group-list-table td.pictures,
+#group-list-table td.categorygroups {
+	text-align: center;
+}
+
+#group-list-table td.lastpost {
+	text-align:right;
+	white-space: nowrap;
+}
+
+#group-newgrouplink {
+	float:right;
+	margin-top: 10pxpx;
+}
+
+.above_list {
+	position:absolute;
+	left:0;
+	top:-20pxpx;
+	width:100%
+}
+
+.above_list .popupgroup {
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+/* Iconlists */
+ul.iconlist li {
+	float:left;
+	margin-left:8px;
+	margin-top:8px;
+	text-align:center;
+	display:block;
+	width:92px;
+	height:123pxpx;
+	overflow:hidden;
+}
+
+ul.iconlist li:last-child {
+	margin-bottom:10pxpx;
+}
+
+ul.iconlist li a img {
+	margin: auto;
+}
+
+ul.iconlist li span {
+	display:block;
+	clear:left;
+	margin-top:5pxpx;
+}
+
+/* View Group */
+#view-group-info a.uploadlaunchlink {
+	float:none;
+}
+
+#view-group-members,
+#view-group-pictures {
+	padding:0;
+}
+
+#view-group-members ul.iconlist a.username {
+	display:block;
+	height:90pxpx
+}
+
+#view-group-description {
+	clear:left;
+}
+
+#content {
+	padding:0 0 40px 0;
+}
+
+#view-group-discussion-popups {
+	float:right;
+	clear:left;
+	display:block;
+	position:relative;
+	height:10px;
+}
+#view-group-discussion-popups a {
+	color:#4E4E4E;
+}
+#view-group-discussion-popups a.popupctrl, #view-group-discussion-popups a.popupctrl:hover {
+	color:#FFF;
+}
+
+#menugroup {
+	float:right;
+	margin-top:6px;
+	margin-right:10px;
+	height:20px;
+}
+
+#menugroup h6 {
+	padding-left:8px;
+	padding-right:15px;
+}
+
+#menugroup h6 a {
+	color:#4E4E4E;
+}
+
+#menu-grouptools {
+	background:transparent url(https://forum.videohelp.com/images/site_icons/settings.png) no-repeat;
+}
+#menu-search {
+	background:transparent url(https://forum.videohelp.com/images/site_icons/search.png) no-repeat;
+}
+#menu-admin {
+	background:transparent url(https://forum.videohelp.com/images/site_icons/account.png) no-repeat;
+}
+
+#view-group-groupimage {
+	margin:10pxpx auto;
+	display:block;
+}
+
+/* Group Discussions */
+#above_discussionlist {
+	float: right;
+	position: relative;
+	top: 35px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+#above_discussionlist #pagination_top {
+	float: right;
+	text-align: right;
+	margin-top: -35px;
+}
+
+#group-discussionlist a.textcontrol img, #after_discussionlist a.textcontrol img {
+	top: 1px;
+	left: 1px;
+}
+
+#group-newdiscussionlink {
+	background: rgb(239, 239, 239) url(https://forum.videohelp.com/images/gradients/generic_button.png) repeat-x left top;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 0 3px 8px #e1e1e1;
+	-webkit-box-shadow: 0 3px 8px #e1e1e1;
+	font:   bold 12px Tahoma, Arial, sans-serif;
+	color: rgb(21, 21, 21);
+	padding: 1px 15px 1px 15px;
+	border: 0;
+	display:inline-block;
+}
+#group-newdiscussionlink span {
+	font-size:15px;
+	font-weight:bold;
+	display:inline;
+}
+
+#group-newdiscussionlink:hover {
+	background: rgb(255, 255, 255) url(https://forum.videohelp.com/images/buttons/newbtn_middle.png) repeat-x left top;
+	display:inline-block;
+}
+#group-newdiscussionlink-top {
+	background: rgb(239, 239, 239) url(https://forum.videohelp.com/images/gradients/generic_button.png) repeat-x left top;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 0 3px 8px #e1e1e1;
+	-webkit-box-shadow: 0 3px 8px #e1e1e1;
+	font:   bold 12px Tahoma, Arial, sans-serif;
+	color: rgb(21, 21, 21);
+	padding: 1px 15px 1px 15px;
+	border: 0;
+	display:inline-block;
+}
+
+#group-newdiscussionlink-top span {
+	font-size:15px;
+	font-weight:bold;
+	display:inline;
+}
+
+#group-newdiscussionlink-top:hover {
+	background: rgb(255, 255, 255) url(https://forum.videohelp.com/images/buttons/newbtn_middle.png) repeat-x left top;
+	display:inline-block;
+}
+
+#group-discussionlist {
+	clear:both;
+	margin-top:30pxpx;
+}
+
+#discussionlist .threadbit .title {
+	padding-left:0;
+}
+
+.threadbit .new .title {
+	font-weight:bold;
+}
+
+
+#group-discussionlist .block {
+	margin-bottom:10pxpx;
+}
+
+#group-discussionlist .threadlisthead {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	width: 99.8%;
+}
+
+#group-discussionlist .threadbit {
+	width: 99.8%;
+}
+
+#after_discussionlist {
+	position: relative;
+	width: 100%;
+	clear:both;
+	display:block;
+}
+
+/* Category List */
+#group-categorylist td .categorygroups {
+	border:1px solid red;
+	text-align:left;
+}
+
+
+/* Group Discussion */
+#thumbnails li span {
+	width:150px;
+	margin:auto;
+	margin-bottom:10pxpx;
+	overflow:hidden;
+	font-size:11px;
+}
+
+.popupgroup .popupmenu a.linkctrl {
+	font-size:11px;
+	padding:2px 4px;
+	text-decoration:none;
+	margin-left:5px;
+}
+
+/* END Group Discussion */
+
+/* Member's List / Manage Member's List */
+
+.below_members {
+	margin-top:10pxpx;
+}
+
+#view-friends {
+	margin-top:10px;
+	margin-bottom:3em;
+}
+
+#view-friends .blockfoot {
+	text-align:right;
+}
+
+#view-friends .blockfoot.manage p  {
+	float:left;
+}
+
+#view-friends .friends_list li input {
+	position:absolute;
+	top:4px;
+	left:4px;
+}
+
+#view-friends label.checkall {
+	float:right;
+	font-size:11px;
+}
+
+#view-friends li li {
+	height:inherit;
+	padding:0;
+	margin:0;
+}
+
+#view-friends .friends_list .presence img {
+	padding-left:0;
+}
+
+.view_section {
+	display:none;
+}
+
+/* Not sure where this is used yet but it screws up some things so if needed, it needs to be more granular
+.blockfoot.actionbuttons .group {
+	float:right;
+	font:10pt Verdana, Geneva, sans-serif;
+}
+*/
+
+ul.userlist {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	clear:both;
+}
+
+ul.userlist li {
+	float:left;
+	margin-right:6px;
+	margin-bottom:6px;
+	width:175px;
+}
+
+ul.userlist_hideavatars li {
+	position:relative;
+	width:215px;
+	border:0;
+	padding:4px;
+	display:inline;
+}
+
+ul.userlist_hideavatars label.avatar_label img {
+	display:none;
+}
+
+ul.userlist_hideavatars div.username a {
+	font-weight:bold;
+}
+
+/* END Member's List / Manage Member's List */
+
+/* Cell Widths */
+
+#category-list {
+	margin-bottom:10px;
+}
+
+.categoryinfo { width:auto; }
+.categorygroups { width:120px;text-align:center; }
+li .categorygroups { vertical-align:middle; }
+
+#category-list div.threadmeta {
+	padding-top:0;
+}
+
+
+#advancedsearch_bottom {
+	float:right;
+}
+
+.groupmessages {
+	padding-bottom: 20px;
+}
+#groupsearch_popup.popupmenu .popupbody {
+	width:236px;
+}
+
+.discussion_popups li {
+padding-top: 5px;
+}
+
+
+/****************************/
+#content_container {
+	width:100%;
+	float:left;
+	margin-right: -290px;
+	padding: 10px 0;
+}
+#content_container.contentright {
+	float:right;
+	margin-right:0;
+	margin-left:-280px;
+}
+#content_container #content {
+	margin-right:290px;
+}
+#content_container.contentright #content {
+	margin-right:0;
+	margin-left:290px;
+}
+
+/*-----------------------------------*/
+/* SIDEBAR */
+#sidebar_container {
+	float:right;
+	width:270px;
+	padding:9px 0;
+	margin-bottom:3em;
+}
+#sidebar_container.sidebarleft {
+	float:left;
+}
+
+#sidebar_container .block {
+	margin-bottom:4px;
+	padding:6px;
+	background: #22020;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+}
+
+#sidebar_container .blockbody {
+	color: #424242;
+	background: #484848;
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;
+	padding:0;
+	border: 1px solid #484848;
+}
+
+#sidebar_container .blockrow {
+	border-top: 1px solid #484848; /* makes the bevel look part of the background */
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;
+	background: #202020;
+}
+
+#sidebar_container .underblock {
+	height:9px;
+	background:transparent url(https://forum.videohelp.com/images/misc/blog/bottom-shadow.png) repeat-x left bottom;
+}
+
+#sidebar_container .blockrow,
+#sidebar_container .blocksubhead {
+	padding:10px 6px 10px 6px;
+	color: #fff;
+}
+
+#sidebar_container .blocksubhead {
+	background:transparent none;
+	height:17.99px;
+	padding: 5px 6px;
+	border:none;
+	outline:none;
+	font-weight:bold;
+}
+
+#sidebar_container .blocksubhead > img {
+	vertical-align:top;
+}
+
+#sidebar_container .blocksubhead img.inlineimg {
+	float: none;
+	position: relative;
+	top: -2px;
+}
+/* Add a "middle" font size, between default and small */
+#sidebar_container .blocksubhead.smaller,
+#sidebar_container .blockrow {
+	font-size:13px;
+}
+
+#sidebar_container .blocksubhead a.username {
+	padding-right:20px;
+}
+
+#sidebar_container .formcontrols .blockrow label {
+	width:auto;
+}
+
+#sidebar_container .advanced.blockfoot {
+	padding:6px;
+	border-bottom:none;
+	font-size:88%;
+	font-weight:bold;
+	background: transparent;
+}
+#sidebar_container .searchblock .advanced a {
+	line-height:2;
+}
+
+#sidebar_container .searchblock .advanced .button {
+	float:right;
+}
+
+
+#sidebar_container > ul {
+	background-color: #202020;
+	border: 1px solid #484848;
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow:-2px 2px 2px #c8c8c8;
+	float:left;
+	width:100%;
+}
+
+
+.avatarcontent {
+	padding-top:10px;
+}
+.avatarcontent:first-child {
+	padding-top:0;
+}
+.smallavatar {
+	height:30px;
+	width:30px;
+	overflow:hidden;
+	float:left;
+}
+div.smallavatartext {
+	margin-left: 40px;
+	margin-top: -30px;
+	float:right;
+	width:202px;
+}
+
+#sidebar_container a.collapse {
+	position:static;
+}
+
+#pictures .blockbody .blockrow, #group_discussion_inlinemod_form .blockbody .blockrow {
+	padding:10px;
+	-moz-box-shadow: -2px 2px 2px #c8c8c8;
+	-webkit-box-shadow: -2px 2px 2px #c8c8c8;
+	border-color:#FFFFFF #C4C4C4 #C4C4C4;
+	border-style:solid;
+	border-width:1px;
+}
+
+#above_postlist {
+	float:none;
+}
+
+#above_postlist .pagination_top {
+	float:left;
+	right:auto;
+	width:auto;
+}
+
+#above_postlist .postlist_popups, #postlist_popups {
+	clear:none;
+}
+
+#postlist .postpagestats {
+	float:left;
+}
+
+#below_postlist {
+	float:none;
+	clear:none;
+}
+
+#below_postlist .newcontent_textcontrol {
+	top:auto;
+	position:relative;
+}

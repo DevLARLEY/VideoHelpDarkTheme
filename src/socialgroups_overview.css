@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+
+.grouplist {
+	float:left;
+	width:50%;
+	clear:right;
+}
+
+
+.grouplist .blockrow > li.owngroup {
+	background-color:#f2f6f8;
+}
+
+#mygroups {
+	margin-right:10px;
+}
+
+#sidebar li.sgicon {
+	border-top:1px solid #C4C4C4;
+}
+#sidebar li.sgicon:first-child {
+	border-top:none;
+}
+
+li.sgicon .leftcol {
+	width:100px;
+	float:left;
+	text-align:center;
+	padding:10px 0;
+}
+
+#sidebar li.sgicon .leftcol {
+	width:60px;
+}
+
+li.sgicon .leftcol .controls {
+	padding-top:10px;
+}
+
+li.sgicon .leftcol .controls li {
+	padding-bottom:3px;
+}
+
+li.sgicon .leftcol a.textcontrol {
+	padding-left:20px;
+	width:35px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+li.sgicon .leftcol a.textcontrol img {
+	left:0;
+}
+li.sgicon .leftcol a.textcontrol:hover img {
+	left:0;
+}
+
+#sidebar li.sgicon .leftcol img.sgicon {
+	width:50px;
+	height:50px;
+}
+
+li.sgicon .maincol {
+	padding:10px;
+	background:#ffffff url(https://forum.videohelp.com/images/gradients/grey-up.png) repeat-x scroll left bottom;
+	height:200px;
+	font-size:11px;
+	overflow:hidden;
+}
+
+li.sgicon .maincol div.category, li.sgicon .maincol div.last_activity {
+	white-space:nowrap;
+	font-size:11px;
+	overflow:hidden;
+}
+</hr>
+li.sgicon .maincol div.lastdiscussion {
+	overflow:hidden;
+	font-size:12px;
+	height:33px;
+}
+
+#sidebar li.sgicon .maincol {
+	margin-left:60px;
+	background:#FFFFFF none;
+	height:auto;
+}
+
+li.sgicon .maincol h3 {
+	padding-bottom:5px;
+	font-size:14px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+li.sgicon .maincol h3 a {
+	font-weight:bold;
+}
+
+#sidebar li.sgicon .maincol h3 {
+	white-space:normal;
+}
+
+li.sgicon .maincol p.description {
+	color:rgb(0, 0, 0);
+	font-size:11px;
+	display:block;
+	overflow:hidden;
+	height:30px;
+}
+
+#sidebar li.sgicon .maincol p.description {
+	height:auto;
+}
+
+li.sgicon .maincol hr {
+	height:1px;
+	border:none;
+	border-top:1px solid #C4C4C4;
+	font-size:11px;
+}
+
+li.sgicon .maincol .memberlist {
+	height:52px;
+	overflow:hidden;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#recentgroups {
+	margin-left:10px;
+}
+
+#categories .blockrow img.inlineimg {
+	padding-right:10px;
+}
+
+#above_content {
+	padding:10px 0;
+}
+
+#groupsearch {
+	float:right;
+	background-color: #202020;
+	border: 1px solid #484848;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding:0 10px;
+}
+
+#groupsearch .searchbox {
+	height:18px;
+	background-color: #202020;
+	border:none;
+	color: #ccc;
+	width:150px;
+}
+
+#groupsearch .searchimg {
+	vertical-align:middle;
+}

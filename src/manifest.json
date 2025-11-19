@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "VideoHelp Dark Mode",
+  "version": "0.5",
+  "description": "larley's dark theme",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["*.css"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "VideoHelpDarkTheme@larley.dev",
+      "strict_min_version": "113.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}

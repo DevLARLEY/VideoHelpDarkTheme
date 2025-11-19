@@ -1,0 +1,2610 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#forums {
+	clear:both;
+}
+
+.forumhead {
+	background: #222 none repeat-x  ;
+	_background-image: none;
+	padding: 0;
+	font:  bold 12px Verdana,Geneva,sans-serif;
+	color:rgb(255, 255, 255);
+	clear:both;
+	margin-top: 8px;
+	float: left;
+	border: 0px solid rgb(51, 51, 51);
+	width: 100%;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+}
+
+#forums .L1 .forumhead a {
+	font:   bold 12px Verdana,Geneva,sans-serif;
+}
+
+#forums .L1 .forumhead .forumdescription {
+	display:none;
+}
+
+#forums .L1 .L2 {
+	display:block;
+	clear: both;
+}
+
+#forums a.username {
+	color: #000000;
+}
+
+#forums a.username:hover {
+	color: #D35100;
+}
+
+.forumbit_post .forumrow, .forumbit_nopost .forumhead, .forumbit_nopost .forumrow, .forumbit_post .forumhead {
+	-moz-box-shadow: -2px 2px 2px #c8c8c8;
+	-webkit-box-shadow: -2px 2px 2px #c8c8c8;
+}
+
+.forumhead + .childforum .L2:first-child .forumrow, .forumhead + .L2 .forumrow {
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg3.png) repeat-x left bottom;
+	_background-image: none;
+	border-top: 1px solid rgb(255, 255, 255);
+}
+
+.forumrow + .childsubforum .forumrow, .forumhead + .childforum .L2:first-child .L2 .forumrow, .forumhead + .childforum .L2 .L2:first-child .forumrow {
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg3.png) repeat-x left bottom;
+	_background-image: none;
+}
+
+.forumbit_nopost .forumbit_nopost .forumrow, .forumbit_post .forumrow {
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg3.png) repeat-x left bottom;
+	_background-image: none;
+	display:block;
+	width: 100%;
+	float: left;
+	min-height: 39px; /* 48px is the icon size */
+	position:relative;
+	border-bottom: 1px solid rgb(255, 255, 255);
+	border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+}
+
+.forumbit_nopost .forumbit_nopost .forumrow .forumicon {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	width: 29px;
+}
+
+.forumbit_nopost .forumbit_nopost .forumrow .forumdata {
+	display: inline-block;
+	width:100%;
+}
+
+.forumbit_nopost .forumbit_nopost .forumrow .forumdata .datacontainer {
+	margin-left: 49px;
+}
+
+.forumbit_nopost .forumbit_post .forumrow .forumdata .datacontainer {
+	margin-left: 0;
+}
+
+/* forumbit nopost */
+/* forumbit nopost -> forumhead */
+.forumbit_nopost .forumhead .forumtitle, .forumbit_nopost .forumhead span, .forumbit_nopost .forumhead .collapse, .forumbit_post .forumhead h2 span {
+	display:block;
+	float: left;
+	clear: right;
+	font:   bold 12px Verdana,Geneva,sans-serif;
+	padding: 4px 0;
+	color: transparent;
+}
+
+.forumbit_nopost .forumhead h2, .forumbit_post .forumhead h2 {
+	/*border-top: 1px solid rgb(255, 255, 255);*/
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.forumbit_nopost {
+	clear:left;
+}
+.forumbit_nopost .forumrowdata {
+	clear:both;
+	display:block;
+	width: 100%;
+}
+
+.forumbit_nopost .subforumdescription {
+	padding: 5px 10px;
+	font-weight: normal;
+	color: rgb(0, 0, 0);
+	background: rgb(221, 223, 223) url(https://forum.videohelp.com/images/gradients/grey-up.png) repeat-x  ;
+}
+
+.forumbit_post .foruminfo .forumdata {
+	padding: 4px 0;
+	font-size: 13px;
+}
+
+.forumbit_nopost .forumhead .forumtitle {
+	font-size: 14;
+	min-width: 76%;
+}
+
+.forumbit_nopost .forumhead .forumtitle a {
+	color: transparent;
+	margin-left: 10px;
+}
+
+.forumbit_nopost .forumhead span, .forumbit_post .forumhead span {
+	font-size: 13px;
+}
+
+.forumbit_nopost .forumhead span.forumlastpost, .forumbit_post .forumhead span.forumlastpost {
+	width: 21%;
+}
+
+.forumbit_nopost .forumhead a.collapse img {
+/* values are based on the image */
+	position:absolute;
+	top: -15px;
+	right: -6px;
+	display:block;
+	width:13px;
+	height:13px;
+	overflow:hidden;
+	background:transparent url(https://forum.videohelp.com/images/buttons/collapse_collapsed_40b.png) no-repeat;
+	float: right;
+	clear: left;
+}
+
+.forumbit_nopost:hover .forumhead  a.collapsegadget {
+	visibility:visible;
+}
+
+.forumbit_nopost .forumbit_nopost .forumrow .forumdata, .forumbit_post .forumrow .forumdata  {
+	padding: 5px 10px;
+	padding-left: 0;
+	font-size: 11px;
+}
+
+.forumbit_nopost .forumbit_nopost .foruminfo .subforums {
+	margin-left: 10px;
+	position: relative;
+	top: -10px;
+}
+
+/* forumbit post */
+.forumbit_post {
+	float: left;
+	position:relative;
+	width: 100%;
+	display:block;
+}
+
+.forumbit_post .forumhead span {
+	padding: 0;
+}
+
+.forumbit_post .forumhead .forumlastpost {
+	top: 0;
+	margin-top: 0;
+}
+
+.forumbit_post .foruminfo, .forumbit_post .forumlastpost, .forumbit_post .forumactionlinks, .forumbit_post .forumstats, .forumbit_post .forumstats_2{
+	padding: 5px 0;
+}
+
+/* commenting this out for the time being as it is included for test
+.forumbit_post .forumstats {
+	background: #f2f6f8;
+margin: 0;
+padding-bottom: 15px;
+overflow:hidden;
+}
+*/
+.forumbit_post .forumhead .forumtitle {
+	width: 76%;
+}
+
+.forumbit_post .forumhead .forumtitle span {
+padding: 0;
+padding-left: 10px;
+}
+
+.forumbit_post .foruminfo {
+	width: 57%;
+	min-width: 30%;
+	float: left;
+	clear: right;
+	min-height: 29px;
+}
+
+.forumbit_post .foruminfo .forumicon{
+	position: absolute;
+	left: 10px;
+	width: 29px;
+}
+
+.forumbit_post .foruminfo .forumdata, .forumbit_post .foruminfo .forumtitle, .forumbit_post .foruminfo .viewing {
+	float: left;
+	clear: right;
+	color: rgb(0, 0, 0);
+}
+
+.forumbit_post .foruminfo .viewing {
+        white-space:nowrap;
+}
+
+.forumbit_post .foruminfo .forumdata {
+	padding: 0;
+	width: 100%;
+}
+
+.forumbit_post .foruminfo .forumdata .datacontainer {
+	float: left;
+	width: 88%;
+	padding-left: 49px;
+}
+
+.forumbit_post .foruminfo .forumdata .forumtitle, .forumbit_nopost .forumbit_nopost .forumrow .forumtitle {
+
+font-size: 14px;
+	margin-right: 10px;
+}
+
+.forumbit_post .foruminfo .forumdata .forumtitle a, .forumbit_nopost .forumbit_nopost .forumrow .forumtitle a {
+/*	color: #000000; */
+	font-weight:bold;
+}
+
+.childsubforum .forumbit_post .foruminfo .forumdata .datacontainer .forumtitle a {
+        padding-left:1.8em;
+        background:url('https://forum.videohelp.com/images/misc/child_forum.png') top left no-repeat;
+}
+
+.forumbit_post .foruminfo .forumdata .viewing {
+	font-style: italic;
+	margin-right:10px;
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+.forumbit_post .forumactionlinks {
+	width: 5%;
+	display:block;
+	float:left;
+	clear:right;
+}
+
+.forumbit_post .forumactionlinks li {
+	display: inline;
+}
+
+.forumbit_post .forumactionlink {
+/* values based on icon size */
+	display:block;
+	width:18px;
+	height:12px;
+	overflow:hidden;
+	float: right;
+	clear: left;
+	background:transparent none no-repeat;
+	position: relative;
+	margin: 3px 10px 0 0;
+}
+
+.forumactionlink a {
+/* values based on icon size */
+	display:block;
+	padding-left:18px;
+}
+
+.forumactionlinks .rsslink {
+	background-image:url(https://forum.videohelp.com/images/misc/rss_40b.png);
+}
+
+.forumactionlinks .subslink {
+	background-image:url(https://forum.videohelp.com/images/misc/subscribed_40b.png);
+}
+.forumactionlinks .unsubslink {
+	background-image:url(https://forum.videohelp.com/images/misc/unsubscribed_40b.png);
+}
+.forumbit_post .forumdescription {
+	display:block;
+	clear:both;
+	padding-right: 10px;
+line-height:1.5em;
+}
+
+.forumbit_post .unsubscribe {
+	display:block;
+	right: 0;
+	top: 2px;
+}
+
+.forumbit_post .forumstats, .forumbit_post .forumstats_2 {
+	display: block;
+	float: left;
+	clear: right;
+	width: 12%;
+	margin-right: 2%;
+}
+
+.forumbit_post .forumstats li, .forumbit_post .forumstats_2 li{
+	font-size: 13px;
+	text-align: right;
+	padding-right: 20px;
+	display:block;
+}
+
+
+.forumbit_post .forumlastpost {
+	display:block;
+	float: left;
+	clear: right;
+}
+
+.forumbit_post .forumrow .forumlastpost {
+	width: 22%;
+	font-size: 13px;
+	padding-top: 5px;
+}
+
+.forumbit_post .forumlastpost .lastpostdate {
+	font-size: 11px;
+}
+
+.forumbit_post .forumlastpost .lastposttitle a, .forumbit_post .forumlastpost .lastpostby a {
+/*	color: #000000; */
+}
+
+.lastpostlabel {
+	display: none;
+}
+
+.moderators, .subforums {
+	display: block;
+	clear:both;
+}
+
+.moderators h4, .subforums h4 {
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+.moderators h4, .moderators .commalist, .subforums h4, .subforums .commalist {
+	float:left;
+	clear:right;
+}
+
+/* Project Tools Forum Display */
+.forumstats dt {
+	display: inline;
+	margin-right: 0;
+}
+
+.forumstats dl {
+	color: rgb(0, 0, 0);
+	font-size: 13px;
+	display: block;
+	text-align: right;
+}
+
+.forumstats dd {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.forumstats dt:after {
+	content:":";
+}
+
+
+/* CSS Document */
+
+
+/* last edited notice */
+.lastedited {
+	font-style:italic;
+	padding-top: 1em;
+	color: rgb(0, 0, 0);
+	font-size: 11px;
+/*	clear:both; */
+}
+
+.lastedited a {
+	color: rgb(0, 0, 0);
+}
+/* reputation image */
+.postbit_reputation {
+	padding:0 0 0 3px;
+}
+img.repimg {
+	padding:0;
+	margin:0 0 0 -3px;
+	display:inline;
+}
+
+/*signature */
+.signature {
+
+        padding-top: 0.5em;
+	border: 0px;
+        margin-top: 2em;
+font-size: 11px;
+}
+a.signature,a.signature:link,a.signature:visited, .signature a.contentlink,.signature a.contentlink:link,.signature a.contentlink:visited{
+        padding-top: 0.5em;
+	border: 0px;
+        margin-top: 2em;
+text-decoration:underline;
+font-size: 11px;
+}
+
+
+
+/*post bit*/
+.postbit {
+	margin-bottom: 10px;
+	display:block;
+	width: 100%;
+	clear:both;
+	position: relative;
+	border: 0px solid rgb(255, 255, 255);
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg2.png) repeat-x  ;
+	_background-image: none;
+}
+
+.postbit object {
+	clear:both;
+}
+
+.postbit .postdetails {
+	width: 100%;
+	display:block;
+	float: left;
+}
+
+.postbit .posthead  {
+        background: rgb(223, 225, 225) none repeat-x  ;
+	_background-image: none;
+	border: 0px solid rgb(255, 255, 255);
+	clear:both;
+	display:block;
+	float: left;
+	width: 100%;
+	color: rgb(0, 0, 0);
+margin: -0px -0px 0;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+	padding: 4px 0;
+
+}
+
+
+
+
+.postbit .posthead  .postdate {
+	display:block;
+	float:left;
+	clear:right;
+	width: 49%;
+	margin-left: 10px;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+
+}
+
+.postbit .posthead  .postdate.old {
+	background:transparent url(https://forum.videohelp.com/images/statusicon/post_old.png) no-repeat center left;
+}
+
+.postbit .posthead  .postdate.new {
+	background:transparent url(https://forum.videohelp.com/images/statusicon/post_new.png) no-repeat center left;
+}
+
+.postbit .posthead  .postdate .date {
+	display:block;
+	margin-left: 14px;
+	color: rgb(0, 0, 0);
+}
+
+.postbit .postdate .time {
+	color: rgb(0, 0, 0);
+	margin-left: 10px;
+}
+
+.postbit .posthead  .nodecontrols {
+	display:block;
+	float: left;
+	clear: right;
+	width: 50%;
+	text-align: right;
+	position: relative;
+	top: 0;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+}
+
+.postbit .posthead  .nodecontrols .postcontrols_top {
+	display:block;
+	margin-right: 10px;
+}
+
+.postbit .posthead  nodecontrols a.postcounter {
+	color: rgb(0, 0, 0);
+	position: relative;
+        top: -2px;
+}
+
+.postbit .userinfo .contact, .postbit .userinfo_noavatar .contact {
+	position: relative;
+	float: left;
+	clear: right;
+	width: 50%;
+	display:block;
+}
+.postbit .postuseravatarlink {
+	display:block;
+	text-align: center;
+	position: relative;
+	top: 0;
+	margin-left: 15px;
+	overflow: hidden;
+	float: left;
+	clear: right;
+}
+
+.postbit .postuseravatarlink img {
+}
+
+
+.postbit .nodecontrols .postimod{
+	top: 0;
+	position:relative;
+	margin-left: 10px;
+}
+
+.postbit .userinfo, .postbit .userinfo_noavatar {
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg2.png) repeat-x  ;
+	_background-image: none;
+	clear:both;
+	 min-height:49.01px;
+	height: auto !important;
+	border-bottom:0px solid rgb(255, 255, 255);
+	padding: 0.5em 0;
+	width: 100%;
+	float: left;
+}
+
+.postbit .userinfo .contact, .userinfo .userinfo_extra, .postbit .userinfo_noavatar .contact {
+	display:inline-block;
+	min-height: 49.01px;
+	 height: auto !important;
+	 height: 75.01px;
+}
+
+.postbit .username_container {
+ 	float: left;
+ 	clear: right;
+ 	display:block;
+ 	margin-left: 10px;
+}
+.postbit .userinfo .username_container .memberaction, .postbit .userinfo_noavatar .username_container .memberaction {
+ 	display: inline;
+}
+
+.postbit .postdetails_noavatar .posthead  .postbit .postdetails_noavatar .userinfo .contact {
+	margin-left: 0;
+}
+/*
+.postbit .userinfo .postbit_reputation {
+        margin-left: 115px;
+}
+*/
+.postbit .userinfo .username, .postbit .userinfo_noavatar .username {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.postbit .userinfo_noavatar .imlinks img {
+	display:inline;
+}
+.postbit .userinfo .username.guest, .postbit .userinfo_noavatar .username.guest {
+	font-weight:normal;
+}
+
+.postbit .userinfo_noavatar .usertitle, .postbit .userinfo .usertitle, .postbit .userinfo_noavatar .rank, .postbit .userinfo .rank {
+	font-size: 11px;
+	font-weight: bold;
+	display:block;
+	clear:both;
+}
+.postbit .userinfo .userinfo_extra, .postbit .userinfo_noavatar .userinfo_extra {
+	text-align: right;
+	width: 300px;
+	float: right;
+	font-size: 11px;
+}
+
+.postbit .userinfo .userinfo_extra dl, .postbit .userinfo_noavatar .userinfo_extra dl {
+	margin-right: 10px;
+	float: right;
+	width: 150px;
+}
+
+.postbit .userinfo_extra dl dt {
+	float:left;
+	display:block;
+	/*color:#555555;*/
+	margin-right: 5px;
+}
+
+.postbit .userinfo_extra dl dt:after  {
+	content:"";
+}
+.postbit .userinfo_extra dl dt.blank:after {
+	content:none;
+}
+.postbit .userinfo_extra dl dd {
+	display:block;
+}
+
+.postbit .userinfo .moreinfo, .postbit .userinfo_noavatar .moreinfo {
+	float: left;
+	display: inline;
+}
+
+.postbit .userinfo .popupmenu a.popupctrl, .postbit .userinfo_noavatar .popupmenu a.popupctrl {
+	font-size: 13px;
+	background: transparent;
+	padding: 0;
+	display:inline-block;
+}
+
+.postbit .userinfo .popupmenu a.popupctrl:hover, .postbit .userinfo_noavatar .popupmenu a.popupctrl:hover {
+	color: #000000;
+	text-decoration: ;
+}
+
+.postbit .postbody {
+	clear: both;
+	color: rgb(0, 0, 0);
+}
+
+.postbit .postrow {
+	padding: 5px 10px 3em;
+	font:   normal 14px Verdana;
+}
+
+.postbit hr {
+	display:none;
+}
+
+.postbit .postrow .postcontent {
+}
+
+.postcontent {
+padding-top:1px;
+line-height:1.4em;
+}
+
+.postbit .posttitle {
+	display:block;
+	padding: 5px 10px;
+	font-weight:bold;
+}
+
+.postbit .posttitle.icon {
+	padding-left:0;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+
+.postbit .posttitle.icon1  { background-image:url(https://forum.videohelp.com/images/icons/icon1.png); padding-left:30px;}
+.postbit .posttitle.icon2  { background-image:url(https://forum.videohelp.com/images/icons/icon2.png); padding-left:30px;}
+.postbit .posttitle.icon3  { background-image:url(https://forum.videohelp.com/images/icons/icon3.png); padding-left:30px;}
+.postbit .posttitle.icon4  { background-image:url(https://forum.videohelp.com/images/icons/icon4.png); padding-left:30px;}
+.postbit .posttitle.icon5  { background-image:url(https://forum.videohelp.com/images/icons/icon5.png); padding-left:30px;}
+.postbit .posttitle.icon6  { background-image:url(https://forum.videohelp.com/images/icons/icon6.png); padding-left:30px;}
+.postbit .posttitle.icon7  { background-image:url(https://forum.videohelp.com/images/icons/icon7.png); padding-left:30px;}
+.postbit .posttitle.icon8  { background-image:url(https://forum.videohelp.com/images/icons/icon8.png); padding-left:30px;}
+.postbit .posttitle.icon9  label { background-image:url(https://forum.videohelp.com/images/icons/icon9.png); padding-left:30px;}
+.postbit .posttitle.icon10 { background-image:url(https://forum.videohelp.com/images/icons/icon10.png); padding-left:30px;}
+.postbit .posttitle.icon11 { background-image:url(https://forum.videohelp.com/images/icons/icon11.png); padding-left:30px;}
+.postbit .posttitle.icon12 { background-image:url(https://forum.videohelp.com/images/icons/icon12.png); padding-left:30px;}
+.postbit .posttitle.icon13 { background-image:url(https://forum.videohelp.com/images/icons/icon13.png); padding-left:30px;}
+.postbit .posttitle.icon14 { background-image:url(https://forum.videohelp.com/images/icons/icon14.png); padding-left:30px;}
+
+.postbit .posttitle {
+	font:   bold 12px Verdana,Geneva,sans-serif;
+	margin: 0;
+}
+
+.postbit .content {
+	font:   normal 14px Verdana;
+	color: rgb(0, 0, 0);
+}
+
+.postbitlegacy .content {
+	font:   normal 14px Verdana;
+	color: rgb(0, 0, 0);
+}
+
+.postbitdeleted .content, .postbitignored .content {
+	font:   normal 14px Verdana;
+	color: rgb(0, 0, 0);
+}
+
+.postbit .postfoot {
+	display:block;
+	clear:both;
+	position: relative;
+	/* top: 15px; */
+	right: 0;
+	padding: 3px 0 7px;
+	background: rgb(238, 240, 240) none repeat-x  ;
+	_background-image: none;
+	width: 100%;
+	font:   bold 11px Tahoma, Verdana, Geneva, sans-serif;
+	height: 16px;
+}
+
+.postbit .postfoot .textcontrols {
+	display:block;
+	padding-left: 300px;
+}
+
+.postbit .postfoot .textcontrols a {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	padding: 3px;
+	padding-left: 21px;
+	padding-right: 0;
+	position: relative;
+	display: inline-block;
+	float: left;
+	border: 0px solid rgb(127, 0, 0);
+	background: #e9e9e9 url(https://forum.videohelp.com/images/buttons/newbtn_middle.png) repeat-x  ;
+	_background-image: none;
+	color: rgb(51, 51, 51);
+	font:   bold 11px Tahoma, Verdana, Geneva, sans-serif;
+	margin-left: 3px;
+}
+
+.postbit .postfoot .textcontrols a:hover {
+	color: #FF8915;
+	background:  url(https://forum.videohelp.com/images/buttons/newbtn_middle.png) repeat-x  ;
+	_background-image: none;
+}
+
+.postbit .postfoot .textcontrols a.multiquote {
+	margin-left: 1px;
+	border: 0;
+	margin-right:0;
+}
+
+.postbit .postfoot .textcontrols a.highlight {
+
+	background-color: ;
+}
+
+.postbit .postfoot .textcontrols a img {
+	position: absolute;
+	top: 2px;
+	left: 1px;
+	margin-right: 1px;
+
+}
+
+.postbit .postfoot .textcontrols a:hover img {
+	top: 2px;
+}
+
+.postbit .postfoot  .postcontrols {
+	position: absolute;
+	right: 10px;
+}
+
+.postbit .postfoot .postlinking {
+	position: absolute;
+	left: 10px;
+}
+
+/*postbit legacy custom*/
+.postbitlegacy, .eventbit {
+	margin-bottom: 0px;
+	display:block;
+	width: 100%;
+	clear:both;
+	position: relative;
+	float: left;
+	border: 0px solid rgb(255, 255, 255);
+
+       color: rgb(0, 0, 0);
+}
+
+.birthdays {
+	border-top: 0px solid rgb(255, 255, 255);
+}
+
+.postbitlegacy hr, .eventbit hr {
+	display: none;
+}
+
+.postbitlegacy .postdetails, .eventbit .eventdetails {
+	float: left;
+	width: 100%;
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg2.png) repeat-x  ;
+	_background-image: none;
+}
+
+.postbitlegacy .posthead , .eventbit .eventhead {
+	border: 0px solid rgb(255, 255, 255);
+	background: rgb(223, 225, 225) none repeat-x  ;
+	_background-image: none;
+	padding: 4px 0;
+	padding-left: 10px;
+	color: rgb(0, 0, 0);
+	margin: -0px -0px 0;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+}
+
+.eventbit .eventhead {
+	height: auto;
+	padding-bottom: 5px;
+}
+
+.birthdays .posthead  {
+	margin-left: 0;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+}
+
+.birthdays .eventrow {
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg2.png) repeat-x  ;
+	_background-image: none;
+}
+
+.postbitlegacy .posthead  .postdate{
+	font:   normal 13px Verdana,Geneva,sans-serif;
+	padding-left: 15px;
+	color: rgb(0, 0, 0);
+}
+
+.eventbit .eventhead .eventdate span.date, .eventbit .eventhead .eventdate .time {
+	font:   normal 13px Verdana,Geneva,sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+.eventbit .eventhead .eventdate span.date {
+	padding-left: 10px;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+}
+
+.postbitlegacy .posthead  .postdate.old {
+	background:transparent url(https://forum.videohelp.com/images/statusicon/post_old.png) no-repeat center left;
+}
+
+.postbitlegacy .posthead  .postdate.new {
+	background:transparent url(https://forum.videohelp.com/images/statusicon/post_new.png) no-repeat center left;
+}
+
+.postbitlegacy .posthead  .time {
+	font:   normal 13px Verdana,Geneva,sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+.postbitlegacy .posthead  .nodecontrols, .eventbit .eventhead .nodecontrols {
+	position: absolute;
+	color: rgb(0, 0, 0);
+	right: 0;
+	top: 0;
+	width: 50% ;
+	padding: 4px 10px 0;
+	text-align: right;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+	vertical-align: middle;
+}
+
+.postbitlegacy .posthead  .nodecontrols a, .eventbit .eventhead .nodecontrols a {
+	color: rgb(0, 0, 0);
+}
+
+.postbitlegacy .posthead  .nodecontrols img, .eventbit .eventhead .nodecontrols img {
+	position: relative;
+	top: 2px;
+	padding: 0;
+}
+
+.postbitlegacy .posthead  .nodecontrols .postimod, .eventbit .eventhead .nodecontrols .postimod {
+	top: 0px;
+	position:relative;
+	margin-left: 5px;
+}
+
+.postbitlegacy .postbody, .eventbit .eventdetails .eventbody {
+	margin-left: 150px;
+	border-left: 1px solid rgb(255, 255, 255);
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg2.png) repeat-x  ;
+	_background-image: none;
+	padding-bottom: 1em;
+}
+
+.postbitlegacy .postrow, .eventbit .eventrow {
+	padding: 5px 10px 10px;
+	font:   normal 14px Verdana;
+	color: rgb(0, 0, 0);
+}
+
+.eventbit dl.stats {
+	display: inline-block;
+	height: auto;
+}
+
+.postbitlegacy .userinfo {
+	float:left;
+	position: relative;
+	width:130px;
+	padding: 2px 10px 5px;
+	font-size: 11px;
+	display:block;
+        background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg2.png) repeat-x  ;
+	_background-image: none;
+	_margin-top: -29.68px;
+	clear:both;
+}
+
+.postbitlegacy .userinfo .rank {
+	font-size: 11px;
+	display:block;
+	clear:both;
+}
+
+.eventbit .userinfo {
+	float:left;
+	position: relative;
+	width:130px;
+	padding: 2px 10px 5px;
+	font-size: 11px;
+	display:block;
+}
+
+.postbitlegacy .userinfo .username_container {
+	margin-bottom: 8px;
+}
+
+
+.postbitlegacy .userinfo .username_container .memberaction {
+	display: inline;
+}
+
+.postbitlegacy .userinfo .postuseravatar, .eventbit .userinfo .eventuseravatar {
+	display:block;
+	margin:3.3333333333333px auto 0;
+	text-align:left;
+	width: auto;
+}
+
+.postbitlegacy .userinfo .postuseravatar img, .eventbit userinfo .eventuseravatar img {
+	border: 0px solid rgb(234, 236, 236);
+ 	outline: 0px dotted transparent;
+ 	max-width: 130px;
+}
+
+.postbitlegacy .userinfo a.username, .eventbit .userinfo a.username {
+	clear:right;
+	font-size:12px;
+	font-weight:bold;
+	width: auto;
+	max-width:110px;
+	word-wrap:break-word;
+color:black;
+}
+
+.postbitlegacy .userinfo .guest.username, .eventbit .userinfo .guest.username {
+	padding-top: 5px;
+	display:block;
+	font-size: 14px;
+}
+
+.postbitlegacy dl.userinfo_extra, .postbitlegacy dl.user_rep {
+	margin: 5px 0;
+	display:block;
+	float: left;
+	width: 80px;
+}
+.postbitlegacy dl.userinfo_extra dt, .postbitlegacy dl.user_rep dt {
+	float: left;
+	text-align: left;
+	/*color: #555555;*/
+	margin-right: 10px;
+	margin-left: 0;
+	min-width:60px;
+	width:auto !important;
+	width:60px;
+}
+
+.postbitlegacy dl.userinfo_extra dt:after, .postbitlegacy dl.user_rep dt:after {
+	content: ":";
+}
+
+.postbitlegacy dl.user_rep dt.blank:after {
+	content: none;
+}
+
+.postbitlegacy dl.userinfo_extra dd, .postbitlegacy dl.userinfo_extra dd a, .postbitlegacy dl.user_rep dd {
+	padding-bottom: 3px;
+}
+
+.postbitlegacy dl.user_rep img {
+	margin-top: 10px;
+}
+
+.postbitlegacy .imlinks {
+	width: 100%;
+	float: left;
+}
+
+.postbitlegacy .imlinks img {
+	display:inline;
+}
+
+.postbitlegacy .title {
+	display:block;
+	padding: 10px;
+	font:   bold 12px Verdana,Geneva,sans-serif;
+}
+
+.postbitlegacy .title.icon {
+	padding-left:0;
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+
+.postbitlegacy .title.icon1  { background-image:url(https://forum.videohelp.com/images/icons/icon1.png); padding-left:30px;}
+.postbitlegacy .title.icon2  { background-image:url(https://forum.videohelp.com/images/icons/icon2.png); padding-left:30px;}
+.postbitlegacy .title.icon3  { background-image:url(https://forum.videohelp.com/images/icons/icon3.png); padding-left:30px;}
+.postbitlegacy .title.icon4  { background-image:url(https://forum.videohelp.com/images/icons/icon4.png); padding-left:30px;}
+.postbitlegacy .title.icon5  { background-image:url(https://forum.videohelp.com/images/icons/icon5.png); padding-left:30px;}
+.postbitlegacy .title.icon6  { background-image:url(https://forum.videohelp.com/images/icons/icon6.png); padding-left:30px;}
+.postbitlegacy .title.icon7  { background-image:url(https://forum.videohelp.com/images/icons/icon7.png); padding-left:30px;}
+.postbitlegacy .title.icon8  label { background-image:url(https://forum.videohelp.com/images/icons/icon8.png); padding-left:30px;}
+.postbitlegacy .title.icon9  { background-image:url(https://forum.videohelp.com/images/icons/icon9.png); padding-left:30px;}
+.postbitlegacy .title.icon10 { background-image:url(https://forum.videohelp.com/images/icons/icon10.png); padding-left:30px;}
+.postbitlegacy .title.icon11 { background-image:url(https://forum.videohelp.com/images/icons/icon11.png); padding-left:30px;}
+.postbitlegacy .title.icon12 { background-image:url(https://forum.videohelp.com/images/icons/icon12.png); padding-left:30px;}
+.postbitlegacy .title.icon13 { background-image:url(https://forum.videohelp.com/images/icons/icon13.png); padding-left:30px;}
+.postbitlegacy .title.icon14 { background-image:url(https://forum.videohelp.com/images/icons/icon14.png); padding-left:30px;}
+
+.postbitlegacy .postfoot, .eventbit .eventfoot {
+	display:block;
+	position: relative;
+	right: 0;
+	float: left;
+	clear:both;
+	vertical-align: bottom;
+	background: transparent;
+	height: 26px;
+	font:   bold 11px Tahoma, Verdana, Geneva, sans-serif;
+	width: 100%;
+}
+
+.postbitlegacy .postrow.has_after_content {
+	padding-bottom: 4em;
+}
+
+.postbitlegacy .after_content {
+	position: relative;
+	width: 100%;
+	clear:both;
+}
+
+.postbitlegacy .signature, .postbitlegacy .lastedited {
+	margin-top: 0;
+	padding: 0 10px;
+}
+
+.postbitlegacy .postfoot .textcontrols, .eventbit .eventfoot .eventcontrols {
+	padding: 3px 0 7px;
+	display:block;
+	background: rgb(238, 240, 240) none repeat-x  ;
+	_background-image: none;
+	font:   bold 11px Tahoma, Verdana, Geneva, sans-serif;
+	width: 100%;
+	height: 16px;
+	margin-right: 10px;
+}
+
+.eventbit .eventfoot .textcontrols {
+	display:block;
+	float: right;
+	margin-right: 10px;
+}
+
+.postbitlegacy .postfoot .textcontrols img.inline, .postbit .postfoot .textcontrols img.inline {
+	position: absolute;
+	top: 2px;
+	left: -1px;
+	margin-right: 1px;
+}
+.postbitlegacy .postfoot .textcontrols span.seperator, .postbit .postfoot .textcontrols span.seperator {
+	position: relative;
+	top: 2px;
+	left: 3px;
+	background: rgb(12, 12, 12);
+	_background-image: none;
+	display: inline-block;
+	height: 80%;
+	width: 0px;
+	float:left;
+	margin: 0 5px;
+}
+.postbitlegacy .postfoot .textcontrols a, .postbit .postfoot .textcontrols a {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 0px;
+	padding: 3px;
+	padding-left: 23px;
+	border: 0px solid rgb(127, 0, 0);
+	background: #e9e9e9 url(https://forum.videohelp.com/images/buttons/newbtn_middle.png) repeat-x  ;
+	_background-image: none;
+	color: rgb(51, 51, 51);
+	font:   bold 11px Tahoma, Verdana, Geneva, sans-serif;
+	display:inline-block;
+	float: left;
+	margin-left: 5px;
+}
+
+.eventbit .eventfoot .eventcontrols a  {
+	background: #e9e9e9 url(https://forum.videohelp.com/images/buttons/newbtn_middle.png) repeat-x  ;
+	_background-image: none;
+}
+
+/* Text button hover images */
+.postbitlegacy .postfoot .textcontrols img.spam, .postbit .postfoot .textcontrols img.spam  {
+	padding-top: 2px;
+}
+.postbitlegacy .postfoot .textcontrols img.moderated, .postbit .postfoot .textcontrols img.moderated, .postbitlegacy .postfoot .textcontrols img.spam, .postbit .postfoot .textcontrols img.spam, .postbitlegacy .postfoot .textcontrols img.deleted_nolink, .postbit .postfoot .textcontrols img.deleted_nolink  {
+	padding-top: 2px;
+}
+.postbitlegacy .postfoot .textcontrols a.editpost, .postbit .postfoot .textcontrols a.editpost  {
+	background: url(https://forum.videohelp.com/images/buttons/edit_40b.png) no-repeat transparent left ;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.editpost:hover, .postbit .postfoot .textcontrols a.editpost:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/edit_40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.quickreply, .postbit .postfoot .textcontrols a.quickreply  {
+	background: url(https://forum.videohelp.com/images/buttons/reply_40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.quickreply:hover, .postbit .postfoot .textcontrols a.quickreply:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/reply_40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.newreply, .postbit .postfoot .textcontrols a.newreply  {
+	background: url(https://forum.videohelp.com/images/buttons/quote_40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.newreply:hover, .postbit .postfoot .textcontrols a.newreply:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/quote_40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.multiquote, .postbit .postfoot .textcontrols a.multiquote  {
+	background: url(https://forum.videohelp.com/images/buttons/multiquote-back_40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.multiquote:hover, .postbit .postfoot .textcontrols a.multiquote:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/multiquote_40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.promotecms, .postbit .postfoot .textcontrols a.promotecms  {
+	background: url(https://forum.videohelp.com/images/cms/promote_small.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.promotecms:hover, .postbit .postfoot .textcontrols a.promotecms:hover  {
+	background: url(https://forum.videohelp.com/images/cms/promote_small-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.infraction, .postbit .postfoot .textcontrols a.infraction  {
+	background: url(https://forum.videohelp.com/images/buttons/add-infraction_sm.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.infraction:hover, .postbit .postfoot .textcontrols a.infraction:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/add-infraction_sm-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.report, .postbit .postfoot .textcontrols a.report  {
+	background: url(https://forum.videohelp.com/images/buttons/report-40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.report:hover, .postbit .postfoot .textcontrols a.report:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/report-40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.blog, .postbit .postfoot .textcontrols a.blog  {
+	background: url(https://forum.videohelp.com/images/misc/blog/blogpost_40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.blog:hover, .postbit .postfoot .textcontrols a.blog:hover  {
+	background: url(https://forum.videohelp.com/images/misc/blog/blogpost_40b-hover.png) no-repeat transparent left ;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.reputation, .postbit .postfoot .textcontrols a.reputation  {
+	background: url(https://forum.videohelp.com/images/buttons/reputation-40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.reputation:hover, .postbit .postfoot .textcontrols a.reputation:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/reputation-40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.ip, .postbit .postfoot .textcontrols a.ip  {
+	background: url(https://forum.videohelp.com/images/buttons/ip-40b.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.ip:hover, .postbit .postfoot .textcontrols a.ip:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/ip-40b-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.redcard, .postbit .postfoot .textcontrols a.redcard  {
+	background: url(https://forum.videohelp.com/images/buttons/red-card_sm.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.redcard:hover, .postbit .postfoot .textcontrols a.redcard:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/red-card_sm-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.yellowcard, .postbit .postfoot .textcontrols a.yellowcard  {
+	background: url(https://forum.videohelp.com/images/buttons/yellow-card_sm.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.yellowcard:hover, .postbit .postfoot .textcontrols a.yellowcard:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/yellow-card_sm-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.deleted, .postbit .postfoot .textcontrols a.deleted  {
+	background: url(https://forum.videohelp.com/images/buttons/deleted_sm.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.deleted:hover, .postbit .postfoot .textcontrols a.deleted:hover  {
+	background: url(https://forum.videohelp.com/images/buttons/deleted_sm-hover.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a:hover {
+	color: #FF8915;
+	background:  url(https://forum.videohelp.com/images/buttons/newbtn_middle.png) repeat-x  ;
+	_background-image: none;
+}
+
+.postbitlegacy .postfoot .textcontrols a.highlight {
+	background-color: ;
+}
+
+.postbitlegacy .postfoot .textcontrols a.multiquote {
+	border: 0;
+	margin-right: 0;
+	padding-right: 10px;
+}
+
+.postbitlegacy .postfoot .textcontrols a img {
+	position: absolute;
+	top: 2px;
+	left: 3px;
+}
+
+.postbitlegacy .postfoot .textcontrols a:hover img {
+	top: 2px;
+}
+
+.postbitlegacy .postfoot  .postcontrols {
+	position: absolute;
+	right: 10px;
+}
+
+.postbitlegacy .postfoot .postlinking {
+	position: absolute;
+	left: 10px;
+}
+
+/*post bit deleted*/
+.postbitdeleted, .postbitignored {
+	margin-bottom: 10px;
+	display:block;
+	width: 100%;
+	clear:both;
+	position: relative;
+	color: rgb(0, 0, 0);
+	border: 0px solid rgb(255, 255, 255);
+	float: left;
+	background: rgb(238, 240, 240) none   ;
+	_background-image: none;
+}
+
+.postbitdeleted hr, .postbitignored hr {
+	display: none;
+}
+
+.postbitdeleted .posthead , .postbitignored .posthead {
+	display:table;
+	background: rgb(223, 225, 225) none repeat-x  ;
+	_background-image: none;
+	border: 0px solid rgb(255, 255, 255);
+	height: 16px;
+	padding: 4px 0;
+	color: rgb(0, 0, 0);
+	width: 100%;
+	margin: -0px -0px 0;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+}
+
+.postbitdeleted .posthead  .date, .postbitignored .posthead .date {
+	display:inline-block;
+	padding-left: 14px;
+	margin-left: 10px;
+	color: rgb(0, 0, 0);
+	background:transparent url(https://forum.videohelp.com/images/statusicon/post_old.png) no-repeat center left;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+}
+
+.postbitdeleted .posthead  .date .time, .postbitignored .date .time {
+	color: rgb(0, 0, 0);
+	margin-left: 10px;
+	font:   normal 13px Verdana,Geneva,sans-serif;
+}
+
+.postbitdeleted .posthead  .postimod, .postbitignored .posthead .postimod {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
+.postbitdeleted .postbody, .postbitignored .postbody {
+	padding: 0;
+}
+
+.postbitdeleted .postrow, .postbitignored .postrow {
+	padding:  10px;
+}
+
+.postbitdeleted .userinfo .memberaction, .postbitignored .userinfo .memberaction {
+	display: block;
+}
+
+
+.postbitdeleted .userinfo, .postbitignored .userinfo {
+	display:block;
+	background: transparent;
+	position: relative;
+	clear: both;
+	padding: 5px 10px;
+	border-bottom: 0px solid rgb(255, 255, 255);
+	word-wrap: break-word;
+}
+
+.postbitdeleted .userinfo .username, .postbitignored .userinfo .username {
+	display:block;
+	float: left;
+	clear: right;
+	font-size: 14px;
+	/*font-weight:bold;*/
+}
+
+.postbitdeleted .userinfo .moreinfo, .postbitignored .userinfo .moreinfo {
+	float: left;
+	display:block;
+	position: relative;
+	top: -5px;
+}
+
+.postbitdeleted .userinfo .usertitle, .postbitignored .userinfo .usertitle {
+	clear:both;
+	display:block
+	width: 100%;
+}
+
+.postbitdeleted .userinfo .popupmenu a.popupctrl:hover, .postbitignored .userinfo .popupmenu a.popupctrl:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.postbitdeleted .title, .postbitignored .title {
+	font:   bold 12px Verdana,Geneva,sans-serif;
+}
+
+.postbitdeleted .nodecontrols, .postbitignored .nodecontrols {
+	padding: 4px 0;
+	padding-right: 10px;
+	text-align: right;
+	background: rgb(238, 240, 240) none repeat-x  ;
+	_background-image: none;
+	font:   bold 11px Tahoma, Verdana, Geneva, sans-serif;
+	height: 16px;
+}
+
+.postbitdeleted .nodecontrols .textcontrol, .postbitignored .nodecontrols .textcontrol {
+	background: #e9e9e9 url(https://forum.videohelp.com/images/buttons/newbtn_middle.png) repeat-x  ;
+	_background-image: none;
+	border: 0px solid rgb(127, 0, 0);
+	font:   bold 11px Tahoma, Verdana, Geneva, sans-serif;
+}
+
+.postbitdeleted .nodecontrols a.textcontrol:hover, .postbitignored .nodecontrols a.textcontrol:hover {
+	background:  url(https://forum.videohelp.com/images/buttons/newbtn_middle.png) repeat-x  ;
+	_background-image: none;
+	border: 0px solid rgb(127, 0, 0);
+}
+
+.userinfo .popupmenu:hover a.popupctrl {
+	background-color:transparent;
+}
+
+.userinfo .popupgroup .popupmenu:hover a.popupctrl.active,
+.userinfo .popupmenu a.popupctrl.active {
+	background-color:transparent;
+	color:inherit;
+}
+.postbit .userinfo .popupmenu .popupctrl {
+	color:auto;
+}
+
+.postbit.imod_highlight .posthead ,
+.postbitlegacy.imod_highlight .posthead,
+.postbitdeleted.imod_highlight .posthead,
+.postbitignored.imod_highlight .posthead {
+	background:#ffeb90;
+	color: rgb(0, 0, 0);
+}
+
+.postbit.imod_highlight .posthead .time,
+.postbit.imod_highlight .posthead .date,
+.postbit.imod_highlight .posthead .nodecontrols a.postcounter,
+.postbitlegacy.imod_highlight .posthead .date,
+.postbitlegacy.imod_highlight .posthead .time,
+.postbitlegacy.imod_highlight .posthead .nodecontrols a.postcounter,
+.postbitdeleted.imod_highlight .posthead .date,
+.postbitdeleted.imod_highlight .posthead .time,
+.postbitignored.imod_highlight .posthead .date,
+.postbitignored.imod_highlight .posthead .time {
+	color: rgb(0, 0, 0);
+}
+
+/* start styles for postbit_legacy */
+.userinfo .popupmenu:hover a.popupctrl {
+	background-color:transparent;
+}
+.userinfo .popupgroup .popupmenu:hover a.popupctrl.active,
+.userinfo .popupmenu a.popupctrl.active {
+	background-color:transparent;
+	color:inherit;
+}
+.postbitlegacy .userinfo .popupmenu .popupctrl {
+	color:auto;
+}
+/* end styles for postbit_legacy */
+
+img.onlinestatus_noavatar {
+	position: relative;
+	top: 5px;
+	left: -56px;
+}
+img.onlinestatus {
+	position: relative;
+	top: 5px;
+	left: -4px;
+}
+
+/* last edited */
+.postbody fieldset {
+	background: rgb(224, 226, 226) none   ;
+	_background-image: none;
+	-moz-border-radius: 3px;
+	padding: 5px 10px 5px 10px;
+	font-size: 11.5px;
+}
+
+.postbody img.inlineimg {
+	position: relative;
+	top: 2px;
+}
+
+.postbody .lastedited .reason {
+	font-weight: bold;
+}
+
+.postbitlegacy .userinfo .userinfo_extra {
+	width:130px;
+	float: left;
+	font-size: 11px;
+}
+
+.has_ad {
+display:block;
+margin-right: 300px;
+}
+
+.postrow2
+{
+	background:#DDDDDD;
+}
+
+
+/* CSS Document */
+
+.postbit-lite {
+	clear:both;
+	position:relative;
+	padding-bottom:10px;
+}
+
+.postbit.postbit-lite {
+	border:0;
+}
+.postbit-lite.noavatar {
+	padding-left:0;
+}
+
+.postbit-deleted,
+.postbit-ignored {
+	padding-left:0;
+	margin-left:80px;
+}
+
+.postbit-deleted .postcontent.deletereason dt, .postbit-deleted .postcontent.deletereason dd {
+	display:block;
+}
+
+.postbit-deleted .posttext .deletedby {
+	font-weight:bold;
+}
+
+.postbit-deleted .managelinks {
+	float:right;
+	margin-right:10px;
+}
+
+.postbit-deleted .managelinks a {
+	margin-left:1em;
+	text-decoration:none;
+	font-size:11px;
+}
+
+.postbit-lite dl.stats.groups {
+	font-size:11px;
+	margin-left:80px;
+	margin-bottom:-10px;
+	font-weight:normal;
+}
+
+.postbit-lite dl.stats.groups dd {
+	padding-right:10px;
+}
+
+.postbit-lite p.moderated {
+	padding:10px 10px 0;
+	margin-left:80px;
+}
+
+.postbit-lite.imod_highlight,
+.postbit-lite.imod_highlight .blocksubhead,
+.postbit-lite.imod_highlight:hover .blockfoot {
+	background:#ffeb90 none no-repeat 10px 10px;
+}
+
+/*
+.postbit-lite .postdate {
+	float:right;
+	display:block;
+	padding:10px;
+	font-size:11px;
+}
+*/
+
+.postbit-lite .postbithead {
+	background: rgb(234, 236, 236) none   ;
+	border: 0px solid rgb(153, 153, 153);
+	padding: 5px 10px;
+	margin-left:80px;
+}
+
+.postbit-lite .postbit-chkbox {
+	position: absolute;
+	right: 10px;
+	margin-top: 5px;
+}
+
+.postbit-lite .avatarlink {
+	float: left;
+	clear: right;
+}
+
+.postbit-lite .avatarlink img {
+	width: 60px;
+	height:auto;
+}
+
+.postbit-lite .username {
+	font-weight:normal;
+}
+
+.postbit-lite .posttext {
+	padding:10px;
+	/* padding-bottom:0; */
+	font-family:Verdana, Geneva, sans-serif;
+	margin-left:80px;
+}
+
+.postbit-lite.noavatar .posthead, .postbit-lite.noavatar .posttext, .postbit-lite.noavatar p.moderated {
+	margin-left: 0;
+}
+
+.postbit-lite .postinfo {
+	color:#555555;
+}
+
+.postbit-lite .postbitfoot {
+	position: absolute;
+	top: 5px;
+	right: 20px;
+}
+
+.postbit-lite .postbitfoot .postcontrols li {
+	display: inline;
+	position: relative;
+	top: -3px;
+}
+
+.postbit-lite .postbitfoot .postcontrols li.separator {
+	color: rgb(153, 153, 153); /* do not change, makes the separator appear like a border */
+	font-size: 1.25em;
+	position: relative;
+	top: -2px;
+}
+
+.postbit-lite .postbitfoot .postcontrols a {
+	color: rgb(0, 0, 0);
+}
+
+.postbit-lite .postbitfoot .postcontrols li img {
+	position: relative;
+	top: 2px;
+}
+
+.postbit-lite .postbitfoot .postcontrols a, .postbit-lite .postbitfoot .postcontrols a:hover {
+	border:0;
+	padding:0;
+	font-size: 11px;
+	margin-right: 10px;
+}
+
+.postbit-lite .postbitfoot .postcontrols a:hover {
+	text-decoration: none /* to preserve normal style of links. do not change */
+}
+
+.postbit-lite .postbitfoot .postcontrols a.edit {
+	padding-left:20px;
+	background:transparent url(https://forum.videohelp.com/images/misc/blog/edit_generic.png) no-repeat left center;
+	border-right:1px dotted rgb(153, 153, 153);
+	margin-right:0;
+	padding-right:10px;
+}
+
+.postbit-lite .postbitfoot .postcontrols a.reply {
+	padding-left:20px;
+	background:transparent url(https://forum.videohelp.com/images/buttons/reply_40b.png) no-repeat left center;
+}
+
+.postbit-lite input.inlinemod {
+	position:relative;
+	top:2px;
+}
+
+.postbit-lite.moderated-picturecomment {
+	padding-left:0;
+}
+
+.postbit-lite.moderated-picturecomment .postbithead,
+.postbit-lite.moderated-picturecomment .posttext,
+.postbit-lite.moderated-picturecomment .stats.groups,
+.postbit-lite.moderated-picturecomment .posttext {
+	margin-left:420px
+}
+
+.postbit-lite img.statusicon,
+.postbit-lite img.posticon {
+	vertical-align:top;
+}
+
+.postbit-lite .title img {
+
+}
+
+.postbit-deleted .posttext,
+.postbit-ignored .posttext {
+	margin-left: 0;
+}
+
+
+/* Moderated Picture Comments Attachent */
+.avatarlink.pc-attachment {
+	width:400px;
+	font-size:11px;
+	text-align:center;
+}
+
+.avatarlink.pc-attachment img {
+	width:400px;
+}
+
+
+/* CSS Document */
+
+/*threadlisthead*/
+.threadlisthead {
+	font:   bold 12px Verdana,Geneva,sans-serif;
+	margin: 0;
+	width: 100%;
+	border: 0px solid rgb(204, 204, 204);
+	background: #222 none repeat-x  ;
+	color: rgb(255, 255, 255);
+	float: left;
+	display:block;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-box-shadow: -2px 2px 2px #c8c8c8;
+	-webkit-box-shadow: -2px 2px 2px #c8c8c8;
+	position: relative;
+}
+
+.threadlisthead a, .threadlisthead a:hover {
+	color: rgb(255, 255, 255);
+}
+
+.threadlisthead div {
+	/*border-top: 1px solid rgb(255, 255, 255);*/
+	margin-left: 3px;
+	margin-right: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+}
+
+.threadlisthead span.threadinfo, .threadlisthead span.threadinfo_withnotification, .threadlisthead span.threadstats, .threadlisthead span.threadreplies, .threadlisthead span.threadviews, .threadlisthead span.threadnotification, .threadlisthead span.threadlastpost {
+	display:block;
+	float: left;
+	clear: right;
+	padding: 4px 0;
+}
+
+.threadlisthead span.threadinfo {
+	width: 73%;
+}
+
+.threadlisthead span.threadinfo_withnotification {
+	width: 47%;
+}
+
+.threadlisthead span.threadinfo .threadtitle {
+	padding-left: 10px;
+}
+
+.threadlisthead span.threadreplies {
+	width: 5%;
+	text-align:center;
+}
+
+.threadlisthead span.threadviews {
+	width: 5%;
+	text-align:center;
+}
+
+.threadlisthead span.threadstats {
+	text-align:center;
+	width: 7%;
+}
+
+.threadlisthead span.threadnotification {
+	width: 10%;
+}
+
+.threadlisthead span.threadnotification {
+	text-align: center;
+}
+
+.threadlisthead span.threadlastpost {
+	width: 13%;
+	text-align:left;
+	padding-left: 2%;
+}
+
+.threadlisthead a:hover {
+	background: transparent;
+}
+
+.threadlisthead .threadimod {
+	position: absolute;
+	right: 5px;
+	padding-top: 5px;
+}
+
+/*threadbit*/
+.threadbit{
+	padding:0;
+	width:100%;
+	display:block;
+	clear:both;
+	color: #ccc;
+	float: left;
+	position: relative;
+	border-bottom: 1px solid #484848;
+	border-left: 1px solid #484848;
+	border-right: 1px solid #484848;
+}
+
+
+.threadbit .threadtitle {
+	margin-top: 5px;
+	font-size: 14;
+
+}
+
+.threadbit .threadtitle_unread {
+
+font-weight:bold;
+color:#333333;
+}
+
+.threadbit .threadtitlesearch_unread {
+
+font-weight:bold;
+
+color: #ccc;
+}
+
+
+a.threadtitlesearch_unread{
+
+    color:#333333;
+}
+
+
+a.threadtitlesearch_unread:hover{
+
+    color:#D35100;
+}
+
+a.threadtitle_unread{
+
+      color:#333333;
+}
+
+a.threadtitlesearch_unread:visited{
+
+color: #ccc;
+}
+
+a.threadtitle_unread:visited{
+
+       color:#333333;
+}
+
+a.title{
+
+font-size:10pt;
+
+}
+
+a.title:visited {
+
+
+}
+
+
+.threadbit .threaddetails {
+	float: right;
+	clear: left;
+	position: relative;
+	right: 0;
+	bottom:20px;
+	margin-right: 10px;
+	margin-bottom: -20px;
+}
+
+.threadbit .sticky{
+	background: #202020;
+	border: 0px solid rgb(255, 255, 255);
+	border-top: 0px solid rgb(255, 255, 255);
+	width: 100%;
+	float: left;
+	display:block;
+	clear:both;
+	position: relative;
+}
+
+.threadbit .nonthread{
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg3.png) repeat-x left bottom;
+	border: 0px solid rgb(255, 255, 255);
+	border-top: 0px solid rgb(255, 255, 255);
+	width: 100%;
+	float: left;
+	display:block;
+	clear:both;
+	position: relative;
+	padding: 5px 0 0;
+	text-indent: 10px;
+}
+
+.threadbit .nonsticky, .threadbit .deleted, .threadbit .discussionrow, .threadbit .ignored {
+	border: 0px solid rgb(255, 255, 255);
+	border-top: 0px solid rgb(255, 255, 255);
+	width:100%;
+	float: left;
+	display:block;
+	clear:both;
+	position: relative;
+	margin-top: 0;
+}
+
+.threadbit .nonsticky, .threadbit .discussionrow {
+	background: #2092020;
+}
+
+.threadbit .deleted, .threadbit .ignored {
+	background: rgb(238, 240, 240) url(https://forum.videohelp.com/images/bg3.png) repeat-x  ;
+}
+
+.threadinfo .threaddesc {
+	height:0;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+.threadbit .threadmeta {
+padding-top:2px;
+	font-size: 11px;
+
+}
+
+.threadbit .threadstatus {
+	min-height: 40px;
+	height: auto !important;
+	height:  40px;
+}
+
+.threadbit .threadstatus, .threadbit .threadinfo, .threadbit .threadinfo_withnotification, .threadbit .threadstats, .threadbit .threadlastpost, .threadbit .threaddeleted, .threadbit .threadnotification, .threadbit .nothreadstatus, .threadbit .threadthread {
+	float: left;
+	clear: right;
+	display:inline-block;
+}
+
+.threadbit .threadinfo {
+	width: 73%;
+	min-width: 350px;
+
+
+
+}
+
+.threadbit .threadinfo_withnotification {
+	width: 47%;
+}
+
+.threadbit .threadstats {
+	width: 7%;
+}
+
+.threadbit .threadnotification {
+	width: 10%;
+}
+
+.threadbit .threadthread {
+	width: 10%;
+}
+
+.threadbit .threadstats {
+	font-size: 13px;
+	text-align: right;
+	padding: 4.01px 0;
+}
+
+.threadbit .threadstats li {
+	margin-right: 20px;
+ min-height:18px;
+
+}
+
+.threadbit .threadstats .replies, .threadbit .threadstats .views, .threadbit .threadstats .smallreplies {
+	display: inline-block;
+	float: left;
+	clear: right;
+	padding: 12.005px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+.threadbit .threadstats .replies, .threadbit .threadstats .views {
+	width: 50%;
+}
+
+.threadbit .threadstats .smallreplies {
+	width: 33.3%;
+}
+
+.threadbit .discussionrow .threadstats .views, .threadbit .ignored .threadstats .views {
+	text-align:  center;
+}
+
+.threadbit .threadstats .replies a.understate:link {
+	color: rgb(0, 0, 0);
+font-size: 11px;
+}
+
+.threadbit .threadlastpost {
+	width: 15%;
+	padding: 4.01px 0;
+	padding-left: 2%;
+	float: left;
+	clear: right;
+	display:block;
+	height: 31.98px;
+	font-size: 13px;
+}
+
+
+
+.threadbit .alt {
+	background: #242424;
+}
+
+.threadbit .threaddeleted {
+	width: 35%;
+	padding: 4.01px 0;
+	float: left;
+	clear: right;
+	display: block;
+	vertical-align: middle;
+	padding-left:3%;
+	font-size: 13px;
+}
+
+.threadbit .threadnotification {
+	padding: 12.005px 0;
+	font-size: 13px;
+	text-align: center;
+}
+
+.threadbit .threadlastpost .username {
+	font-size: 11px;
+}
+
+.threadbit .discussionrow .inner {
+	margin-left: 10px;
+}
+span.searchdesc, .threadbit .discussionrow .inner span.searchdesc {
+	font-size: 11px;
+}
+
+.threadbit .discussionrow .threadinfo {
+	padding: 12.995px 0;
+}
+
+.threadbit .discussionrow.hasstatus .threadinfo {
+	width: 62%;
+	padding: 0;
+}
+
+.threadbit .discussionrow.hasstatus .threadlastpost {
+	height: auto;
+}
+
+.threadbit .discussionrow.hasstatus .threadtitle {
+	margin-top: 10px;
+}
+
+.threadbit .discussionrow.hasstatus .threadstats {
+	padding: 13.5px 0;
+	font: 13px;
+}
+
+.threadbit .discussionrow.hasstatus .threadstats li {
+	margin-left: 10px;
+}
+
+.threadbit .discussionrow .threadtitle {
+	margin-top: 0;
+}
+
+.threadbit .discussionrow .threadstats {
+	font-size: {vb;stylevar mid_fontSize};
+	padding: 5px 0;
+}
+
+.threadbit .discussionrow .threadlastpost {
+	padding-left: 3%;
+	height: 47.97px};
+}
+
+.threadbit .threadimod {
+	width: 0%;
+	overflow: show;
+}
+
+.threadbit .threadimod input {
+	position: absolute;
+	right: 1%;
+	margin-top: 13.5px;
+}
+
+.threadbit .threadnotification + .threadimod {
+	position:absolute;
+	right: 5px;
+	margin-top: 0;
+}
+
+.threadbit.imod_highlight .deleted,
+.threadbit.imod_highlight .sticky,
+.threadbit.imod_highlight .nonsticky,
+.threadbit.imod_highlight .discussionrow,
+.threadbit.imod_highlight .alt,
+.threadbit.imod_highlight .ignored {
+	background-color:#ffeb90;
+}
+
+/* threadbit status */
+.threadbit .nonsticky a.threadstatus, .threadbit .sticky a.threadstatus {
+	background-repeat: no-repeat;
+	background-position: 10px 4px;
+	position: relative;
+	float: left;
+	clear: right;
+	width: 55px;
+	display:block;
+	left: 5px;
+	top: 5px;
+}
+
+.threadbit .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_old2-26.png); }
+.threadbit.dot .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_dot2-26-right.png); }
+.threadbit.dot.hot .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_dot_hot-30-right.gif); }
+.threadbit.dot.hot.lock .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_dot_hot_lock-30-right.gif); }
+.threadbit.dot.hot.lock.new .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_dot_hot_lock_new-30-right.gif); }
+.threadbit.dot.hot.new .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_dot_hot_new-26-right.png); }
+.threadbit.dot.lock .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_dot_lock-26-right.png); }
+.threadbit.dot.lock.new .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_dot_lock_new-26-right.png); }
+.threadbit.dot.new .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_dot_new2-26-right.png); }
+.threadbit.hot .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_hot-30.gif); }
+.threadbit.hot.lock .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_hot_lock-30.gif); }
+.threadbit.hot.lock.new .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_hot_lock_new-30.gif); }
+.threadbit.hot.new .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_hot_new-26.png); }
+.threadbit.lock .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_lock2-26.png); }
+.threadbit.lock.new .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_lock_new2-26.png); }
+.threadbit.moved .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_moved-30.gif); }
+.threadbit.moved.new .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_moved_new-30.gif); }
+.new .threadstatus { background-image: url(https://forum.videohelp.com/images/statusicon/thread_new2-26.png); }
+
+.threadbit .deleted .threadstatus {
+	background: url(https://forum.videohelp.com/images/statusicon/thread_deleted_30.png) no-repeat 10px 4px;
+	position: relative;
+	float: left;
+	clear: right;
+	width: 55px;
+	display:block;
+	*background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/statusicon/thread_deleted_30.png',sizingMethod=scale);
+}
+
+/*threadbit ratings */
+.threadbit .threadtitle {
+	background:transparent none no-repeat right top;
+	padding-left:0;
+	margin-right: 10px;
+}
+.threadbit .rating1 .threadtitle { background-image:url(https://forum.videohelp.com/images/rating/rating-trans-15_1.png); padding-right:15px; }
+.threadbit .rating2 .threadtitle { background-image:url(https://forum.videohelp.com/images/rating/rating-trans-15_2.png); padding-right:30px; }
+.threadbit .rating3 .threadtitle { background-image:url(https://forum.videohelp.com/images/rating/rating-trans-15_3.png); padding-right:45px; }
+.threadbit .rating4 .threadtitle { background-image:url(https://forum.videohelp.com/images/rating/rating-trans-15_4.png); padding-right:60px; }
+.threadbit .rating5 .threadtitle { background-image:url(https://forum.videohelp.com/images/rating/rating-trans-15_5.png); padding-right:75px; }
+
+/*threadbit icon*/
+.threadbit .title {
+	background:transparent none no-repeat left top;
+}
+
+.threadbit .pagination {
+	position: relative;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.threadbit .pagination .pagelinks {
+	border: 0;
+}
+
+.threadbit .pagination .pagelinks:hover {
+	border: 0;
+}
+
+.threadbit .pagination .pagelinks a {
+	padding: 0 4px;
+	-moz-border-radius: 0px;
+	-webkit_border-radius: 0px;
+	border: 1px solid #484848;
+	color: #ccc;
+	font-size: 11px;
+	display: inline;
+	float: none;
+}
+
+.threadbit .pagination .pagelinks a:hover {
+	border: 1px solid #484848;
+}
+
+.threadbit .deleted .threadinfo {
+	width: 62%
+}
+
+.threadbit .deleted .author {
+	display: inline-block;
+	float: left;
+}
+
+.threadbit .managethread {
+	display: inline-block;
+	float: left;
+	clear: right;
+}
+
+.threadbit .managethread li {
+	display: inline;
+	margin-left: 10px;
+}
+
+
+/*************************************************/
+/* ADS THREADS */
+#ad_forum_below_threadlist {
+        width:100%;
+        padding:0 0 0 0;
+        text-align:left;
+}
+
+
+
+#searchresults {
+}
+
+#pagetitle h1 a {
+	text-decoration:none;
+	color:inherit;
+}
+
+#pagetitle h1 a:hover {
+	text-decoration:underline;
+}
+.searchbits {
+	float: left;
+	margin-bottom: 10px;
+	width: 100%;
+	clear:both;
+}
+/* searchbit */
+
+.searchbit {
+	position:relative;
+	padding-bottom:4px;
+	border-bottom: 1px solid #ddd;
+}
+
+.searchbit .searchinfo {
+	padding-left:80px;
+	background-color:#fff;
+}
+
+.searchbit .searchtitle {
+	font-size:125%;
+	padding: 0px;
+	padding-right: 250px;
+	margin: 0px;
+}
+
+.searchbit .searchtitle img {
+	max-height:15px;
+}
+
+.searchbit .searchtitle a {
+	text-decoration: none;
+}
+
+.searchbit .searchdescription {
+	font-size:10px;
+	_padding-right:32px;
+	margin-right:32px;
+	padding-top: 3px;
+	padding-right: 250px;
+	border-top: 1px solid rgb(153, 153, 153);
+	margin: 1px 0;
+}
+
+.searchbit.imod_highlight,
+.searchbit.imod_highlight .blockrow
+{
+	background:#ffeb90;
+}
+
+.searchbit .searchicon {
+	position:absolute;
+	left:6px;
+	top:10px;
+	display:block;
+	max-width:48px;
+	max-height:48px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.searchlastpost {
+	font-size:11px;
+	position:absolute;
+	top:12px;
+	right:12px;
+	/*float:left;*/
+}
+
+.searchcat {
+	font-size:11px;
+	position:absolute;
+	top:35px;
+	right:10px;
+	/*float:left;*/
+	text-align:right;
+	width:200px;
+}
+
+div.searchstats span {
+	display:block;
+}
+
+.searchbit .searchstats {
+	padding-left:80px;
+	margin-bottom:5px;
+	font-size:10px;
+	clear:both;
+}
+
+.searchlastpostlabel {
+	display:inline;
+	font-weight: bold;
+}
+
+.search_inline {
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	float:right;
+	vertical-align: middle;
+}
+
+/*
+.searchbit .lastpostlink {
+	visibility:hidden;
+}
+
+.searchbit:hover .lastpostlink {
+	visibility:visible;
+	padding-top: 2px;
+}
+*/
+
+.searchbit .lastpostlink {
+	padding-top: 2px;
+}
+
+
+.searchbit .forumlastpost img {
+	vertical-align:middle;
+}
+
+.floatinlinemod {
+	float:right;
+	vertical-align:middle;
+	margin-top: 5px;
+}
+
+#below_searchresults {
+	float: right;
+	margin: 1em;
+}
+
+#above_searchresults {
+	margin: 1em 0 0;
+	position: relative;
+}
+
+#pagination_top {
+	float:right;
+	position: absolute;
+	top: -2em;
+	right: 0;
+}
+
+#above_searchresults .popupgroup {
+	float:right;
+/*	clear:left;*/
+	display:block;
+	position:relative;
+}
+
+h2.searchlisthead {
+	font:   bold 12px Verdana,Geneva,sans-serif;
+	border: 1px solid #484848;
+	background: #2b2b2b;
+	_background-image: none;
+	color: rgb(255, 255, 255);
+	float: left;
+	display:block;
+	width:100%;
+	position:relative;
+	clear:both;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-box-shadow: -2px 2px 2px #c8c8c8;
+}
+
+h2.searchlisthead a {
+	color: rgb(255, 255, 255);
+}
+
+h2.searchlisthead div {
+	margin-right: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+}
+h2.searchlisthead div span {
+	display:block;
+	float: left;
+	clear: right;
+	padding: 5px 10px;
+}
+
+h2.searchlisthead div .mainsearchstats {
+	float:right;
+	font-size:11px;
+	text-align:right;
+}
+
+.threadbit .threadinfo {
+	width: 66%;
+	min-width: 250px;
+	overflow:hidden;
+}
+.threadbit .threadtitle {
+	height: 18.45px;
+	overflow: hidden;
+}
+/*
+
+.threadbit .preview {
+	width: 28%;
+	display:inline-block;
+	float:left;
+}
+
+.threadbit .preview div.inner {
+	padding:  -0.295px  10px;
+	height: 40.59px;
+	overflow: hidden;
+}
+*/
+.threadbit .threadstats {
+	width:4%;
+	min-width: 40px;
+        min-height:40px;
+	padding-top: 4.01px;
+
+}
+.threadbit .threadreplies {
+	padding: 12.005px 0;
+}
+
+.threadbit .threadptstats, .threadbit .threadsgstats {
+	padding: -3.985px 0;
+}
+
+.threadbit .threadstats li {
+	margin-right:10px;
+
+}
+
+.threadbit .threadlastpost {
+	width:17%;
+	padding-left:0;
+	font-size:12px;
+}
+
+.threadbit .threadlastpost dd {
+	margin-left:15px;
+	height: 15.99px;
+	overflow: hidden;
+}
+
+.threadbit .threadimod input {
+	right: 0.5%;
+}
+.threadinfo a.avatar {
+	background-image:none;
+	text-align:center;
+	position: relative;
+	top: 5px;
+}
+.threadinfo a.avatar img {
+	width:auto !important;
+	max-height:30px;
+	height: auto !important;
+	height: 30px;
+}
+
+.threadbit .bloginfo a.threadstatus {
+	background: transparent url(https://forum.videohelp.com/images/statusicon/forum_old-40.png) no-repeat 10px 0;
+}
+
+#thread .blockfoot {
+	border: 0;
+}
+
+.threadbit .nonsticky, .threadbit .discussionrow, .threadbit .alt  {
+	_background-image: none;
+}
+
+.searchtitle {
+	font-size:13px;
+	padding:6px 0 2px;
+	font-weight:normal;
+}
+
+/* Search results specific styles */
+.threadinfo.forum a.threadstatus {
+	background-image:url(https://forum.videohelp.com/images/search_results/search_results_forum.png);
+}
+
+.threadinfo.forum .searchtitle {
+	font-weight:bold;
+}
+
+.threadinfo.post a.threadstatus {
+	background-image:url(https://forum.videohelp.com/images/search_results/search_results_postbit.png);
+}
+
+.threadinfo.blogentry a.threadstatus {
+	background-image:url(https://forum.videohelp.com/images/search_results/search_results_blog.png);
+	background-position:11px 6px;
+}
+
+.threadinfo.article a.threadstatus {
+	background-image:url(https://forum.videohelp.com/images/search_results/search_results_CMS.png);
+}
+
+.threadinfo.socialgroup a.threadstatus {
+	background-image:url(https://forum.videohelp.com/images/search_results/search_results_socialgroup.png);
+}
+
+.threadinfo.socialgroupdiscussion a.threadstatus {
+	background-image:url(https://forum.videohelp.com/images/search_results/search_results_socialgroup_discussion.png);
+}
+
+.threadinfo.socialgroupmessage a.threadstatus {
+	background-image:url(https://forum.videohelp.com/images/search_results/search_results_socialgroup_message.png);
+}
+
+/* custom by larley */
+
+.nonsticky > div[style] {
+    background-color: #2b2b2b !important;
+	border: 1px solid #484848 !important;
+}
