@@ -3468,3 +3468,9 @@ div#loginform2 {
 .blockbody.formcontrols span > div[style] {
     background: #2b2b2b !important;
 }
+
+li.formsubmit.jumptopage input[type="text"][name="page"] {
+  background-color: #202020;
+  border-radius: 5px;
+  border: 1px solid #484848;
+}
