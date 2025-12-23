@@ -305,7 +305,7 @@
 }
 
 .editor_controls .popupmenu .popupbody {
-	background:#FFFFFF none repeat scroll 0 0;
+	background: #2b2b2b;
 }
 
 .editor_controls .category,
@@ -431,11 +431,11 @@
 }
 
 .editor_controls .imagebutton_selected {
-	background-color:rgb(241,246,248);
+	background-color: #484848;
 }
 
 .editor_controls .imagebutton_down {
-	background-color:rgb(151,181,226);
+	background-color:#ccc;
 }
 
 .editor_controls .imagebutton_disabled {
@@ -529,8 +529,8 @@
 }
 
 .editoroverlay .blockrow {
-	background:rgb(238, 238, 238)  bottom repeat-x;
-	border:solid 1px rgb(153, 153, 153);
+	background: #2b2b2b;
+	border: solid 1px#484848;
 	margin:10px;
 	text-align: left;
 }
@@ -982,8 +982,8 @@ legend {
 /* BLOCK STUFF */
 
 .block {
-	background: none;
-	border:0px  rgb(255, 255, 255);
+	background: #202020;
+	border: 0px  rgb(255, 255, 255);
 	clear:both;
 	padding:0;
 	color: ;
@@ -1095,8 +1095,8 @@ dl.blocksubhead dt { color:#555555; font-weight:normal; }*/
 }
 
 .wysiwyg_block iframe.textbox {
-	border: 1px solid rgb(153, 153, 153);
-	background: rgb(255, 255, 255) none   ;
+	border: 1px solid #484848;
+	background: #202020;
 	padding-bottom: 0;
 }
 
@@ -3473,4 +3473,8 @@ li.formsubmit.jumptopage input[type="text"][name="page"] {
   background-color: #202020;
   border-radius: 5px;
   border: 1px solid #484848;
+}
+
+#vB_Editor_QR_dialog {
+	background-color: #202020 !important;
 }
